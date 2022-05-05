@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return "Hello world!"
+    return "The FastAPI application is now deployed."
 
 
 @app.get("/{index}")
